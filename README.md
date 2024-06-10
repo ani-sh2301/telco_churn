@@ -1,5 +1,5 @@
 # Telco Churn Prediction
-
+Link to kaggle notebook- https://www.kaggle.com/code/ani1032002/telco-churn-prediction
 ## Introduction
 In the telecom industry, customer churn refers to the phenomenon where customers leave a service provider for a competitor. Predicting which customers are likely to churn is crucial for telecom companies because retaining existing customers is often more cost-effective than acquiring new ones. <br>
 For the telco company to expand its clientele, its number of new customers must exceed its churn rate.<br>
