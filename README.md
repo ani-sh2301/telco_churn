@@ -5,7 +5,7 @@ In the telecom industry, customer churn refers to the phenomenon where customers
 For the telco company to expand its clientele, its number of new customers must exceed its churn rate.<br>
 Several factors can influence a customer's decision to leave, such as:
 <li><b>Service quality, Pricing, Customer service, Usage patterns.</b></li>
-To predict churn, we need to analyze various types of data, like:<br>
+To predict churn, we need to analyze various types of data, like:
 <li><b>Customer demographics, Usage patterns, Service interactions, Billing information.</b></li>
 
 The dataset used in this project: Telco Customer Churn<br>
@@ -20,12 +20,12 @@ The dataset contains 7043 rows and 21 columns<br>
 
 ## Data Preprocessiong
 <ul>
-<li>Converted Data Types: The TotalCharges column, initially of type object, was converted to float.</li>
-<li>Handled Empty Strings: During conversion, empty strings were found in the TotalCharges column. These rows had a tenure of 0, making TotalCharges equal to 0. These empty spaces were filled with 0.</li>
-<li>Checked for Null Values: No null values were present in the dataset.</li>
+<li>Converted Data Types: The TotalCharges column was initially of type object. I converted it to float type.</li>
+<li>Handled Empty Strings: During the conversion, I found empty strings in the TotalCharges column. These were rows where tenure was 0, making TotalCharges equal to 0. I filled these empty spaces with 0.</li>
+<li>Checked for Null Values: There were no null values in the dataset.</li>
 <li>Removed Duplicates: No duplicate records were found.</li>
 <li>Dropped Irrelevant Columns: The CustomerID column was dropped as it was not relevant to predicting churn.</li>
-<li>Checked for Outliers: Outliers were checked using box plot in the numerical columns tenure, MonthlyCharges, and TotalCharges, and none were found.</li>
+<li>Checked for Outliers: I checked for outliers in the numerical columns tenure, MonthlyCharges, and TotalCharges and found none.</li>
 </ul>
 
 ## Exploratory Data Analysis
